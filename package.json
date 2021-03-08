@@ -1,10 +1,9 @@
 {
-  "name": "tuck-tech-blog",
+  "name": "tech-blog-final",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node seeds/seed.js"
   },
   "repository": {
@@ -15,17 +14,15 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jamesjtuckbc/tech-blog-final/issues"
+    "url": "https://github.com/CHANCEEWELL/tech-blog-final/issues"
   },
-  "homepage": "https://github.com/CHANCEEWELL/tech-blog-final#readme",
+
   "dependencies": {
-    "bcrypt": "^5.0.0",
     "compression": "^1.7.4",
     "connect-session-sequelize": "^7.0.4",
     "dateformat": "^4.5.1",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
-    "eslint": "^7.15.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
