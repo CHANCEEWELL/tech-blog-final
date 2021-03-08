@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesjtuckbc/Tuck-Tech-Blog.git"
+    "url": "git+https://github.com/CHANCEEWELL/tech-blog-final.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jamesjtuckbc/Tuck-Tech-Blog/issues"
+    "url": "https://github.com/jamesjtuckbc/tech-blog-final/issues"
   },
-  "homepage": "https://github.com/jamesjtuckbc/Tuck-Tech-Blog#readme",
+  "homepage": "https://github.com/CHANCEEWELL/tech-blog-final#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "compression": "^1.7.4",

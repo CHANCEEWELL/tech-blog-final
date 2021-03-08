@@ -1,13 +1,12 @@
 $(document).ready(function () {
 
-    // DOM Variables
+ 
     const signupBtnEl = $('#signup');
     const loginBtnEl = $('#login')
     const userName = $('#user_name');
     const password = $('#password');
     const passwordConf = $('#password_conf');
 
-    // validate password
     function valPassword(newUser) {
 
         if (newUser.password === newUser.password_conf) {
@@ -27,7 +26,6 @@ $(document).ready(function () {
     };
 
 
-    // post new user
     async function createUser(newUser) {
         try {
             const result = await $.ajax({

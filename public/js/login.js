@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-  // DOM Variables
   const signupBtnEl = $('#signup');
   const loginBtnEl = $('#login');
   const userName = $('#user_name');

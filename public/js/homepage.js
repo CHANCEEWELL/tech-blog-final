@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
-    // DOM Variables
+    
     const addPost = $('#button');
     const homepageDivEl = $('#homepage');
     const newpostsDivEl = $('#newDiv');
     const newPost = `<form class="mx-auto col-md-6 mt-5"><div class="mb-3"><label for="newTitle" class="form-label">Title</label><input type="text" class="form-control" id="newTitle"></div><div class="mb-3"><label for="newContent" class="form-label">Content</label><textarea type="text" class="form-control" id="newContent" rows="4"></textarea></div><button id="beHeard" type="submit" class="btn btn-dark">Be Heard!</button></form>`;
     
   
-    // functions
+    
     async function submitPost(post) {
       try {
         const result = await $.ajax({
@@ -34,7 +34,7 @@ $(document).ready(function () {
       }
     };
   
-    // click events
+   
     addPost.on('click', (e) => {
       e.preventDefault();
       addPost.addClass('disabled');
